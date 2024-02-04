@@ -81,6 +81,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
+    background-color: #202020;
 }
 
 .search-result > img {
