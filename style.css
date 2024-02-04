@@ -1,0 +1,132 @@
+* {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+svg {
+    height: 1rem;
+    width: 1rem;
+}
+
+/* Search bar styling */
+.search-bar {
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #323232;
+    min-height: 4vh;
+}
+
+.search-bar svg {
+    fill: #FBFCF8;
+    flex: 1;
+}
+
+.search-bar > form {
+    height: 100%;
+    flex: 15;
+    display: flex;
+}
+
+input[name="user-search"] {
+    height: 100%;
+    width: 78vw;
+    border: none;
+    background-color: transparent;
+    color: white;
+    flex: 15;
+}
+
+input[name="user-search"]:focus-visible {
+    outline: none;
+}
+
+.search-bar > form > button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    height: 100%;
+    width: 5vw;
+    flex: 1;
+}
+
+/* Search results styling */
+h2 {
+    margin: 1rem 0.5rem;
+}
+
+.results svg {
+    fill: #F5FEFD;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.search-result {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.search-result > img {
+    min-width: 8rem;
+    max-height: 6rem;
+}
+
+.search-text {
+    flex: 15;
+    padding: 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-text > h3 {
+    width: fit-content;
+    margin: 0;
+}
+
+.search-text > svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* Bottom menu styling */
+.bottom-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    padding: 0.5rem 0;
+    border-top: 1px solid gray;
+}
+
+.bottom-menu p {
+    margin: 0;
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+.bottom-menu svg {
+    fill: #F8EEEC;
+    padding-top: 0.1rem;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
