@@ -120,19 +120,11 @@ h2 {
     height: 40px;
 }
 
-.bottom-menu a {
-    text-decoration: none;
-    height: 100%;
-}
-
-.bottom-menu a:visited {
-    text-decoration: none;
-}
-
 .bottom-menu p {
     margin: 0;
     font-weight: 200;
     font-size: 0.7rem;
+    cursor: default;
 }
 
 .bottom-menu svg {
