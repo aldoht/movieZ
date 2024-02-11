@@ -86,8 +86,12 @@ h2, .not-found {
 }
 
 .search-result > img {
-    min-width: 8rem;
-    max-height: 6rem;
+    width: 8rem;
+    height: 5rem;
+}
+
+.desktopImage {
+    display: none;
 }
 
 .search-text {
@@ -177,6 +181,19 @@ h2, .not-found {
         margin: 0 1rem;
         justify-content: space-between;
         flex-wrap: wrap;
+    }
+
+    .desktopImage {
+        display: inline-block;
+    }
+
+    .mobileImage {
+        display: none;
+    }
+
+    .not-found {
+        margin: 0;
+        margin-bottom: 1rem;
     }
 
     #searchTextDesktop {
