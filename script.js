@@ -19,3 +19,15 @@ function removeActiveClass(elements) {
         console.log("removeActiveClass did not get passed an element as parameter!");
     }
 }
+
+const searchInput = document.getElementById("search-bar");
+const deleteButton = document.getElementById("delete");
+
+searchInput.addEventListener("keyup", () => {
+    if (searchInput.value !== "") {
+        deleteButton.style.display = "inline-block";
+    }
+    else {        
+        deleteButton.style.display = "none";
+    }
+})
